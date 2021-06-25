@@ -1,0 +1,16 @@
+{
+  "name": "phoenixbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sabian Roberts @ The Phoenix Project Software",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "promises": "^0.2.5"
+  }
+}
