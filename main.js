@@ -1,15 +1,17 @@
-const Discord = require("discord.js");
+// based on SunburntRock89's ODbot code - https://github.com/OldDigibox/ODbot/blob/main/bot.js
+const { Client } = require("discord.js");
 const { token } = require("./cfg/auth.js");
-const client = new Discord.Client();
 const config = require("./cfg/config.js");
 const { readdir } = require("fs/promises");
+
+const client = new Client({ disableEveryone: "all" });
 
 client.once('ready', () => {
 	console.log('PhoenixBot is online.');
 });
 
 
-(async() => {						// based on SunburntRock89's ODbot code - https://github.com/OldDigibox/ODbot/blob/main/bot.js
+(async() => {
 	const constants = {
 		config,
 		client,
