@@ -1,4 +1,4 @@
-FROM node:14-alpine AS builder
+FROM mhart/alpine-node:14 AS builder
 
 RUN mkdir -p /usr/src/build
 WORKDIR /usr/src/build
