@@ -7,7 +7,7 @@ COPY / .
 RUN rm *lock* && \
     yarn
 
-FROM node:14-alpine AS runner
+FROM mhart/alpine-node:slim-14 AS runner
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh && \
