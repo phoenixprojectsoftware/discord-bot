@@ -5,7 +5,7 @@ const config = require("./cfg/config.js");
 const { readdir } = require("fs/promises");
 
 client.once('ready', () => {
-	console.log('PhoenixBot is Online');
+	console.log('PhoenixBot is online.');
 });
 
 

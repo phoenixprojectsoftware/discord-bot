@@ -1,7 +1,7 @@
 {
   "name": "phoenixbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord bot for the Phoenix Project Software server",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "moment": "^2.29.1",
-    "promises": "^0.2.5"
+    "moment": "^2.29.1"
   }
 }
